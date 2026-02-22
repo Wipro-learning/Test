@@ -1,2 +1,3 @@
 # Test
-This for learning purpose the git
+I am learning commands and operation performed on git and bash.
+Thanks 
