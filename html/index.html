@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My NGINX Container</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>body{font-family:Arial,Helvetica,sans-serif;max-width:800px;margin:4rem auto;padding:0 1rem;color:#333}</style>
+</head>
+<body>
+  <h1>NGINX is running in a container</h1>
+  <p>This is a sample page served from a local folder bound into the official NGINX container via Docker Compose.</p>
+  <p>Time: <span id="time"></span></p>
+  <script>document.getElementById('time').innerText=new Date().toLocaleString()</script>
+</body>
+</html>
